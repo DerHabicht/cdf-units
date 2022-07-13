@@ -1,0 +1,85 @@
+services:
+  cdf: Marshal Service
+  ar: Army of Rynak
+  nr: Navy of Rynak
+  raf: Rynak Air Force
+  dfsf: Defense Force Space Fleet
+  dfpc: Defense Force Pathfinder Corps
+  dfcc: Defense Force Cyber Corps
+echelons:
+  ar:
+    army:
+      name: Army
+      commander: O-10
+      deputy: O-10
+      nco: null
+      staff:
+        officer: O-9
+        specialist: W-5
+      numbering:
+        level: force
+        type: arabic
+    corps:
+      name: Corps
+      commander: O-9
+      deputy: O-9
+      nco: null
+      staff:
+        officer: O-8
+        specialist: W-4
+      numbering:
+        level: force
+        type: roman
+    division:
+      name: Division
+      commander: O-8
+      deputy: O-8
+      nco: null
+      staff: 
+      numbering:
+        level: force
+        type: arabic
+    brigade:
+      name: Brigade
+      commander: O-7
+      deputy: O-6
+      nco: null
+      numbering:
+        level: force
+        type: arabic
+    regiment:
+      name: Regiment
+      commander: O-6
+      deputy: O-5
+      nco: E-9
+      numbering:
+        level: force
+        type: arabic
+    battalion:
+      name: Battalion
+      commander: O-5
+      deputy: O-4
+      nco: E-8
+      numbering:
+        level: echelon
+        type: arabic
+    company:
+      name: Company
+      commander: O-4
+      deputy: O-3
+      nco: E-6
+      numbering:
+        level: echelon
+        type: alpha
+    platoon:
+      name: Platoon
+      commander: O-2
+      deputy: O-1
+      nco: 
+      numbering:
+        level: 
+        type: 
+    section:
+    squad:
+    fireteam:
+      
